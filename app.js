@@ -20,7 +20,8 @@ app.use('/api/shop', shopRouter);
 app.use('/*', handleNotFound);
 app.use(errorHandler);
 
+const PORT = process.env.PORT || 8000;
 
-app.listen(8000, () => {
-    console.log('The port is listening to port 8000')
+app.listen(PORT, () => {
+    console.log('The port is listening to port ' + PORT);
 });

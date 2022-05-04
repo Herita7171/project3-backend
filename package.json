@@ -4,7 +4,7 @@
   "description": "CS5610 Project 3 Review App",
   "main": "app.js",
   "scripts": {
-    "start": "nodemon app.js"
+    "start": "node app.js"
   },
   "author": "Hancong Wang",
   "license": "ISC",
@@ -22,5 +22,9 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.15"
+  },
+  "engines": {
+    "node": "16.x",
+    "npm": "8.x"
   }
 }
